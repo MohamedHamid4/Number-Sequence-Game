@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">NumberSequenceGame</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="re_password">Re_password</string>
+    <string name="country">Country</string>
+    <string name="user_name">User Name</string>
+    <string name="save">Save</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="login">Login</string>
+    <string name="OR">OR</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="score">Score</string>
+    <string name="enter_a_number">Enter A Number</string>
+    <string name="check">Check</string>
+    <string name="new_game">New Game</string>
+    <string name="Account_successfully_created">Account successfully created</string>
+    <string name="old_password">Old Password</string>
+    <string name="New_Password">New Password</string>
+    <string name="Confirm_Password">Confirm Password</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Remember_me">Remember me ?</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="Create_New_An_Account">Create New An Account</string>
+    <string name="Change_Password">Change Password</string>
+    <string name="scores">0</string>
+    <string name="Settings">Settings</string>
+    <string name="Show_All_Games">Show All Games</string>
+    <string name="Show_last_Game_Date">Show last Game Date</string>
+    <string name="Clear_Game_History">Clear Game History</string>
+    <string name="Canceled">Canceled</string>
+    <string name="Your_password_has_been_changed">Your password has been changed</string>
+    <string name="You_Win">You Win</string>
+    <string name="Excellent_you_passed_this_step_Keep_Going">Excellent, you passed this step \n Keep Going</string>
+    <string name="Next_Game">Next Game</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Wrong_answer_try_again">Wrong answer\n      try again</string>
+    <string name="canceled">canceled</string>
+    <string name="Account_Successfully_Created">Account Successfully Created</string>
+    <string name="Next_Question">Next Question</string>
+    <string name="Create_New_Account">Create New Account</string>
+    <string name="Password_does_not_match">Password Does Not Match</string>
+    <string name="Enter_the_old_password_correctly">Enter The Old Password Correctly</string>
+    <string name="You_must_enter_a_value">You Must Enter A Value</string>
+    <string name="Wrong_Answer_Try_Again">Wrong Answer Try Again</string>
+    <string name="Data_has_been_deleted">Data has been deleted</string>
+    <string name="Not_Succeeded">Not Succeeded</string>
+
+    <string-array name="country">
+        <item>Palestine</item>
+        <item>United Arab Emirates</item>
+        <item>Algeria</item>
+        <item>Argentina</item>
+        <item>Canada</item>
+        <item>German</item>
+        <item>Denmark</item>
+        <item>France</item>
+        <item>United Kingdom</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Egypt</item>
+        <item>Jordan</item>
+        <item>Lebanon</item>
+        <item>Oman</item>
+        <item>Poland</item>
+        <item>Kuwait</item>
+        <item>Romania</item>
+        <item>Spain</item>
+        <item>Syria</item>
+        <item>Saudi Arabia</item>
+        <item>Russia</item>
+        <item>Turkey</item>
+        <item>United States</item>
+        <item>Qatar</item>
+        <item>Yemen</item>
+    </string-array>
+
+</resources>

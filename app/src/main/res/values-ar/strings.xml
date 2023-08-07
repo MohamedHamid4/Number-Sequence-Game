@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">NumberSequenceGame</string>
+    <string name="full_name">الاسم</string>
+    <string name="email_address">الايميل</string>
+    <string name="password">كلمة المرور</string>
+    <string name="birthdate">تاريخ الميلاد</string>
+    <string name="re_password">تأكيد كلمة المرور</string>
+    <string name="country">الدولة</string>
+    <string name="user_name">أسم المستخدم</string>
+    <string name="save">حفظ</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="OR">أو</string>
+    <string name="sign_up">حساب جديد</string>
+    <string name="score">الدرجة</string>
+    <string name="enter_a_number">أدخل القيمة</string>
+    <string name="check">تأكيد</string>
+    <string name="new_game">لعبة جديدة</string>
+    <string name="Account_successfully_created">تم أنشاءالحساب بنجاح </string>
+    <string name="old_password">كلمة المرور القديمة</string>
+    <string name="New_Password">كلمة المرور الجديدة</string>
+    <string name="Confirm_Password">تأكيد كلمة المرور</string>
+    <string name="Confirm">تأكيد</string>
+    <string name="Remember_me">البقاء قيد التسجيل ؟</string>
+    <string name="Sign_Up">حساب جديد</string>
+    <string name="Create_New_An_Account">أنشاء حساب جديد</string>
+    <string name="Change_Password">تغير كلمة المرور</string>
+    <string name="scores">0</string>
+    <string name="Settings">الأعدادات</string>
+    <string name="Show_All_Games">عرض كل الألعاب</string>
+    <string name="Show_last_Game_Date">إظهار تاريخ آخر لعبة</string>
+    <string name="Clear_Game_History">مسح محفوظات اللعبة</string>
+    <string name="Canceled">ألغيت</string>
+    <string name="Your_password_has_been_changed">تم تغيير كلمة السر الخاصة بك</string>
+    <string name="You_Win">لقد فزت</string>
+    <string name="Excellent_you_passed_this_step_Keep_Going">ممتاز ، لقد اجتزت هذه الخطوة استمر</string>
+    <string name="Next_Game">اللعبة التالية</string>
+    <string name="Cancel">الغاء</string>
+    <string name="Wrong_answer_try_again">الاجابة خطائة حاول مجددا</string>
+    <string name="canceled">الغيت</string>
+    <string name="Account_Successfully_Created">تم أنشاءالحساب بنجاح</string>
+    <string name="Next_Question">السؤال التالي</string>
+    <string name="Create_New_Account">أنشاء حساب جديد</string>
+    <string name="Password_does_not_match">كلمة المرور غير متطابقة</string>
+    <string name="Enter_the_old_password_correctly">أدخل كلمة المرور بشكل صحيح</string>
+    <string name="You_must_enter_a_value">يجب أدخال قيمة</string>
+    <string name="Wrong_Answer_Try_Again">الاجابة خاطئة حاول مجددا</string>
+    <string name="Data_has_been_deleted">تم حذف البيانات</string>
+    <string name="Not_Succeeded">لم تنجح</string>
+
+
+    <string-array name="country">
+        <item>فلسطين</item>
+        <item>الأمارات العربية المتحدة</item>
+        <item>الجزائر</item>
+        <item>أرجنتين</item>
+        <item>كندا</item>
+        <item>المانيا</item>
+        <item>دنمارك</item>
+        <item>فرنسا</item>
+        <item>المملكة المتحدة</item>
+        <item>ايرلندا</item>
+        <item>ايطاليا</item>
+        <item>مصر</item>
+        <item>الاردن</item>
+        <item>لبنان</item>
+        <item>عمان</item>
+        <item>بولندا</item>
+        <item>كويت</item>
+        <item>رومانيا</item>
+        <item>أسبانيا</item>
+        <item>سوريا</item>
+        <item>المملكة العربية السعودية</item>
+        <item>روسيا</item>
+        <item>تركيا</item>
+        <item>الولايات المتحدة</item>
+        <item>قطر</item>
+        <item>اليمن</item>
+    </string-array>
+
+</resources>

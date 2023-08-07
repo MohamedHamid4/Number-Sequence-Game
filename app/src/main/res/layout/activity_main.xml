@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/Sign_Up"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/tv_create_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/Create_New_An_Account"
+                android:textColor="#595858"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_sign_up" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="95dp"
+                android:src="@drawable/picture"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/et_full_name"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:autofillHints=""
+                android:background="@drawable/corner3"
+                android:drawableEnd="@drawable/circle_user"
+                android:elevation="7dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/full_name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="350dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="25dp"
+                android:elevation="7dp"
+                android:padding="5dp"
+                android:fontFamily="sans-serif"
+                android:orientation="horizontal"
+                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_birthdate">
+
+                <RadioButton
+                    android:id="@+id/radiobutton_male"
+                    android:layout_width="170dp"
+                    android:layout_height="48dp"
+                    android:drawableEnd="@drawable/male"
+                    android:paddingEnd="60dp"
+                    android:text="@string/male"
+                    android:checked="true"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+                <RadioButton
+                    android:id="@+id/radiobutton_female"
+                    android:layout_width="170dp"
+                    android:layout_height="48dp"
+                    android:drawableEnd="@drawable/female"
+                    android:paddingEnd="50dp"
+                    android:text="@string/female"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/corner3"
+                android:drawableEnd="@drawable/email"
+                android:elevation="7dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_full_name"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/tv_birthdate"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/corner3"
+                android:drawableEnd="@drawable/birthdate"
+                android:elevation="7dp"
+                android:fontFamily="sans-serif"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:text="@string/birthdate"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_country" />
+
+            <Spinner
+                android:id="@+id/spinner_country"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/corner3"
+                android:drawableEnd="@drawable/arrow_down"
+                android:elevation="7dp"
+                android:entries="@array/country"
+                android:padding="10dp"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_re_password"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/et_user_name"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/corner3"
+                android:drawableEnd="@drawable/user"
+                android:elevation="7dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/user_name"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.54"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_email"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15sp"
+                android:background="@drawable/corner2"
+                android:gravity="center"
+                android:padding="7dp"
+                android:paddingStart="15dp"
+                android:text="@string/save"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+
+            <EditText
+                android:id="@+id/et_re_password"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/corner3"
+                android:drawableEnd="@drawable/password"
+                android:elevation="7dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/password"
+                android:importantForAutofill="no"
+                android:inputType="textVisiblePassword"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.54"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_password"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="350dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/corner3"
+                android:drawableEnd="@drawable/password"
+                android:elevation="7dp"
+                android:fontFamily="sans-serif"
+                android:hint="@string/password"
+                android:importantForAutofill="no"
+                android:inputType="textVisiblePassword"
+                android:padding="10dp"
+                android:paddingStart="15dp"
+                android:textSize="17sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.54"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_user_name"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
